@@ -1,14 +1,12 @@
 //
-//  main.cpp
-//  Simple_Caculator
+//  SimpleCaculator.cpp
 //  数据结构习题 2-1
 //  Created by zzh on 15/4/14.
 //  Copyright (c) 2015年 zzh. All rights reserved.
 //
 
-#include <iostream>
+#include <stdio.h>
 using namespace std;
-
 int main(int argc, const char * argv[])
 {
     int Sum,x;
