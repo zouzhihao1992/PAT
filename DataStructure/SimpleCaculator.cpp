@@ -1,13 +1,13 @@
 //
 //  SimpleCaculator.cpp
-//  数据结构习题 2-1
+//  2-1  简单计算器 难度：简单
 //  Created by zzh on 15/4/14.
 //  Copyright (c) 2015年 zzh. All rights reserved.
 //
 
 #include <stdio.h>
 using namespace std;
-int main(int argc, const char * argv[])
+int main_SimpleCaculator()
 {
     int Sum,x;
     char op;
