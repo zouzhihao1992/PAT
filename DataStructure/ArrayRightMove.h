@@ -8,5 +8,6 @@
 #ifndef DataStructure_ArrayRightMove_h
 #define DataStructure_ArrayRightMove_h
 int main_ArrayRightMove();
+int main_ArrayRightMove2();
 
 #endif

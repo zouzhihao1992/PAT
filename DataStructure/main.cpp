@@ -13,5 +13,6 @@
 int main()
 {
     //main_SimpleCaculator();
-    main_ArrayRightMove();
+    //main_ArrayRightMove();
+    main_ArrayRightMove2();
 }

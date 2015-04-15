@@ -8,9 +8,13 @@
 
 #include <stdio.h>
 #include <iostream>
+
 using namespace std;
+
 void rightshift(int a[],int n);
-int main_ArrayRightMove()
+void rightshift2(int a[],int n,int shift);
+
+int main_ArrayRightMove1()  //方法一
 {
     int n,shift;
     scanf("%d",&n);
@@ -31,6 +35,20 @@ int main_ArrayRightMove()
     return 0;
 }
 
+int main_ArrayRightMove2()//方法二
+{
+    int n,shift;
+    scanf("%d",&n);
+    scanf("%d",&shift);
+    int a[n],i;
+    for (i=0; i<n; i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    rightshift2(a, n, shift);
+    return 0;
+}
+
 void rightshift(int a[],int n)
 {
     int temp=a[n-1];
@@ -40,3 +58,34 @@ void rightshift(int a[],int n)
     }
     a[0]=temp;
 }
+
+void rightshift2(int a[],int n,int shift)
+{
+    int i,temp;
+    for (i=0; i<n/2; i++)
+    {
+        temp=a[i];
+        a[i]=a[n-1-i];
+        a[n-1-i]=temp;
+    }
+    for (i=0; i<shift/2; i++)
+    {
+        temp=a[i];
+        a[i]=a[shift-1-i];
+        a[shift-1-i]=temp;
+    }
+    for (i=shift; i<(n-shift)/2; i++)
+    {
+        temp=a[i];
+        a[i]=a[shift+n-1-i];
+        a[shift+n-1-i]=temp;
+    }
+    for (i=0; i<n; i++)
+    {
+        printf("%d ",a[i]);
+    }
+}
+
+
+
+
