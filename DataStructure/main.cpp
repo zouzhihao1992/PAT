@@ -13,7 +13,7 @@
 #include "LinkInsert.h"
 #include "Derivative.h"
 #include "SimpleBankQueue.h"
-
+#include "RestoreBinaryTree.h"
 int main()
 {
     //main_SimpleCaculator();
@@ -22,7 +22,8 @@ int main()
     //main_IntDivide();
     //main_LinkInsert();
     //main_Derivative();
-    main_SimpleBankQueue();
+   // main_SimpleBankQueue();
+    main_RestoreBinaryTree();
     
     return 0;
 }
