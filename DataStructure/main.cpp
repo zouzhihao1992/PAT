@@ -12,6 +12,7 @@
 #include "IntDivide.h"
 #include "LinkInsert.h"
 #include "Derivative.h"
+#include "SimpleBankQueue.h"
 
 int main()
 {
@@ -20,8 +21,8 @@ int main()
     //main_ArrayRightMove2();
     //main_IntDivide();
     //main_LinkInsert();
-    main_Derivative();
-    
+    //main_Derivative();
+    main_SimpleBankQueue();
     
     return 0;
 }
