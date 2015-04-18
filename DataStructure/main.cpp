@@ -9,10 +9,19 @@
 #include <stdio.h>
 #include "SimpleCaculator.h"
 #include "ArrayRightMove.h"
+#include "IntDivide.h"
+#include "LinkInsert.h"
+#include "Derivative.h"
 
 int main()
 {
     //main_SimpleCaculator();
     //main_ArrayRightMove();
-    main_ArrayRightMove2();
+    //main_ArrayRightMove2();
+    //main_IntDivide();
+    //main_LinkInsert();
+    main_Derivative();
+    
+    
+    return 0;
 }
