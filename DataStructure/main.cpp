@@ -14,6 +14,7 @@
 #include "Derivative.h"
 #include "SimpleBankQueue.h"
 #include "RestoreBinaryTree.h"
+#include "Arena_1807.h"
 int main()
 {
     //main_SimpleCaculator();
@@ -23,7 +24,8 @@ int main()
     //main_LinkInsert();
     //main_Derivative();
    // main_SimpleBankQueue();
-    main_RestoreBinaryTree();
+   // main_RestoreBinaryTree();
+    main_arena_1807();
     
     return 0;
 }

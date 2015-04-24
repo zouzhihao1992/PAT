@@ -12,7 +12,7 @@
 #define Max 50
 TreeNode* CreateTree(char *pre,char *in,int len)
 {
-    if (len==0)  
+    if (len==0)
     {
         return NULL;
     }
