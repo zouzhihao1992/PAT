@@ -16,6 +16,7 @@
 #include "RestoreBinaryTree.h"
 #include "Arena_1807.h"
 #include "Arena_1809.h"
+#include "Arena_1806.h"
 int main()
 {
     //main_SimpleCaculator();
@@ -27,7 +28,8 @@ int main()
    // main_SimpleBankQueue();
    // main_RestoreBinaryTree();
     //main_arena_1807();
-    main_Arena_1809();
+   // main_Arena_1809();
+    main_Arena_1806();
     
     return 0;
 }
