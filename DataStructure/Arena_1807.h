@@ -9,6 +9,7 @@
 #ifndef __DataStructure__Arena_1807__
 #define __DataStructure__Arena_1807__
 
+
 #include <stdio.h>
 int main_arena_1807();
 
