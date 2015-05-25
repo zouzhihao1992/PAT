@@ -36,6 +36,7 @@
 #include "PAT_A1069.h"
 #include "PAT_A1008.h"
 #include "PAT_A1049.h"
+
 int main()
 {
     //main_SimpleCaculator();
@@ -71,5 +72,7 @@ int main()
     //main_PAT_B1003();
     //main_PAT_A1069();
     //main_PAT_A1008();
-    main_PAT_A1049_2();
+    //main_PAT_A1049_2();
+     //main_PAT_A1088();
+    return 0;
 }
