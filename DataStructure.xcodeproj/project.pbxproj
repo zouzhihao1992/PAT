@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260BCB601B12BC560054B0E7 /* PAT_A1088.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 260BCB5F1B12BC560054B0E7 /* PAT_A1088.cpp */; };
 		26169B881AFE3C780011667A /* PAT_A1010.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26169B861AFE3C780011667A /* PAT_A1010.cpp */; };
 		2622EA4F1B04C9D900D767A0 /* PAT_B1003.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2622EA4D1B04C9D900D767A0 /* PAT_B1003.cpp */; };
 		2622EA521B04D34400D767A0 /* PAT_A1069.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2622EA501B04D34400D767A0 /* PAT_A1069.cpp */; };
@@ -31,13 +32,18 @@
 		26C658981AEA3BA80071CE38 /* PAT_A1025.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26C658961AEA3BA80071CE38 /* PAT_A1025.cpp */; };
 		26C9BE591B02E33600EB3E6F /* PAT_A1029.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26C9BE571B02E33600EB3E6F /* PAT_A1029.cpp */; };
 		26C9BE5C1B02F5DD00EB3E6F /* PAT_A1048.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26C9BE5A1B02F5DD00EB3E6F /* PAT_A1048.cpp */; };
+		26DD9C641B17467200B78920 /* PAT_A1078.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DD9C621B17467200B78920 /* PAT_A1078.cpp */; };
 		26DEF9391AE9CAE300504532 /* Arena_1809.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEF9371AE9CAE300504532 /* Arena_1809.cpp */; };
 		26E15E501AFDDB2C004BC485 /* Arena_1934.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26E15E4E1AFDDB2C004BC485 /* Arena_1934.cpp */; };
+		26E1F93C1B13518F002152EC /* PAT_B1007.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26E1F93A1B13518F002152EC /* PAT_B1007.cpp */; };
+		26E1F93F1B135975002152EC /* PAT_B1013.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26E1F93D1B135975002152EC /* PAT_B1013.cpp */; };
 		26EA1E5B1AE9CE89001CA1E9 /* Arena_1806.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26EA1E591AE9CE89001CA1E9 /* Arena_1806.cpp */; };
 		26EA1E5E1AE9D26B001CA1E9 /* PAT_B1022.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26EA1E5C1AE9D26B001CA1E9 /* PAT_B1022.cpp */; };
 		26EA1E611AE9DA2F001CA1E9 /* Arena_1928.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26EA1E5F1AE9DA2F001CA1E9 /* Arena_1928.cpp */; };
 		26ED710F1B057A53001CCAC9 /* PAT_A1049.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26ED710D1B057A53001CCAC9 /* PAT_A1049.cpp */; };
 		26EFDDA41AE23E1600A933D9 /* RestoreBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26EFDDA21AE23E1600A933D9 /* RestoreBinaryTree.cpp */; };
+		26F4D3331B149A6300C4C542 /* PAT_A1059.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26F4D3311B149A6300C4C542 /* PAT_A1059.cpp */; };
+		26F4D3361B14ABB900C4C542 /* PAT_A1015.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26F4D3341B14ABB900C4C542 /* PAT_A1015.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +59,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		260BCB5F1B12BC560054B0E7 /* PAT_A1088.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAT_A1088.cpp; sourceTree = "<group>"; };
+		260BCB611B12BC5F0054B0E7 /* PAT_A1081.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAT_A1081.h; sourceTree = "<group>"; };
+		260BCB621B12BC910054B0E7 /* PAT_A1088.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAT_A1088.h; sourceTree = "<group>"; };
 		26169B861AFE3C780011667A /* PAT_A1010.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAT_A1010.cpp; sourceTree = "<group>"; };
 		26169B871AFE3C780011667A /* PAT_A1010.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAT_A1010.h; sourceTree = "<group>"; };
 		2622EA4D1B04C9D900D767A0 /* PAT_B1003.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAT_B1003.cpp; sourceTree = "<group>"; };
@@ -101,10 +110,16 @@
 		26C9BE581B02E33600EB3E6F /* PAT_A1029.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAT_A1029.h; sourceTree = "<group>"; };
 		26C9BE5A1B02F5DD00EB3E6F /* PAT_A1048.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAT_A1048.cpp; sourceTree = "<group>"; };
 		26C9BE5B1B02F5DD00EB3E6F /* PAT_A1048.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAT_A1048.h; sourceTree = "<group>"; };
+		26DD9C621B17467200B78920 /* PAT_A1078.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAT_A1078.cpp; sourceTree = "<group>"; };
+		26DD9C631B17467200B78920 /* PAT_A1078.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAT_A1078.h; sourceTree = "<group>"; };
 		26DEF9371AE9CAE300504532 /* Arena_1809.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arena_1809.cpp; sourceTree = "<group>"; };
 		26DEF9381AE9CAE300504532 /* Arena_1809.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arena_1809.h; sourceTree = "<group>"; };
 		26E15E4E1AFDDB2C004BC485 /* Arena_1934.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arena_1934.cpp; sourceTree = "<group>"; };
 		26E15E4F1AFDDB2C004BC485 /* Arena_1934.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arena_1934.h; sourceTree = "<group>"; };
+		26E1F93A1B13518F002152EC /* PAT_B1007.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAT_B1007.cpp; sourceTree = "<group>"; };
+		26E1F93B1B13518F002152EC /* PAT_B1007.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAT_B1007.h; sourceTree = "<group>"; };
+		26E1F93D1B135975002152EC /* PAT_B1013.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAT_B1013.cpp; sourceTree = "<group>"; };
+		26E1F93E1B135975002152EC /* PAT_B1013.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAT_B1013.h; sourceTree = "<group>"; };
 		26EA1E591AE9CE89001CA1E9 /* Arena_1806.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arena_1806.cpp; sourceTree = "<group>"; };
 		26EA1E5A1AE9CE89001CA1E9 /* Arena_1806.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arena_1806.h; sourceTree = "<group>"; };
 		26EA1E5C1AE9D26B001CA1E9 /* PAT_B1022.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAT_B1022.cpp; sourceTree = "<group>"; };
@@ -115,6 +130,10 @@
 		26ED710E1B057A53001CCAC9 /* PAT_A1049.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAT_A1049.h; sourceTree = "<group>"; };
 		26EFDDA21AE23E1600A933D9 /* RestoreBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RestoreBinaryTree.cpp; sourceTree = "<group>"; };
 		26EFDDA31AE23E1600A933D9 /* RestoreBinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestoreBinaryTree.h; sourceTree = "<group>"; };
+		26F4D3311B149A6300C4C542 /* PAT_A1059.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAT_A1059.cpp; sourceTree = "<group>"; };
+		26F4D3321B149A6300C4C542 /* PAT_A1059.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAT_A1059.h; sourceTree = "<group>"; };
+		26F4D3341B14ABB900C4C542 /* PAT_A1015.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAT_A1015.cpp; sourceTree = "<group>"; };
+		26F4D3351B14ABB900C4C542 /* PAT_A1015.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAT_A1015.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,10 +174,10 @@
 				26BFE2571AE9256300518101 /* Arena_1807.h */,
 				26DEF9371AE9CAE300504532 /* Arena_1809.cpp */,
 				26DEF9381AE9CAE300504532 /* Arena_1809.h */,
-				266A20791B12BC09005026F2 /* PAT_A1081.h */,
 				26BA4C9E1AF5B989006AB16B /* Arena_1923.cpp */,
+				26DD9C621B17467200B78920 /* PAT_A1078.cpp */,
+				26DD9C631B17467200B78920 /* PAT_A1078.h */,
 				26BA4C9F1AF5B989006AB16B /* Arena_1923.h */,
-				266A20771B12BBFF005026F2 /* PAT_A1081.cpp */,
 				26BA4CA11AF5C02F006AB16B /* Arena_1924.cpp */,
 				26BA4CA21AF5C02F006AB16B /* Arena_1924.h */,
 				26EA1E5F1AE9DA2F001CA1E9 /* Arena_1928.cpp */,
@@ -169,6 +188,8 @@
 				26747B951ADE25B800115A74 /* ArrayRightMove.h */,
 				2648A9F51AE1387700587361 /* Derivative.cpp */,
 				2648A9F61AE1387700587361 /* Derivative.h */,
+				26F4D3341B14ABB900C4C542 /* PAT_A1015.cpp */,
+				26F4D3351B14ABB900C4C542 /* PAT_A1015.h */,
 				2634755C1ADE86D200DABECB /* IntDivide.cpp */,
 				2634755D1ADE86D200DABECB /* IntDivide.h */,
 				2648A9F21AE129D300587361 /* LinkInsert.cpp */,
@@ -179,6 +200,8 @@
 				26169B861AFE3C780011667A /* PAT_A1010.cpp */,
 				26169B871AFE3C780011667A /* PAT_A1010.h */,
 				26C658961AEA3BA80071CE38 /* PAT_A1025.cpp */,
+				26F4D3311B149A6300C4C542 /* PAT_A1059.cpp */,
+				26F4D3321B149A6300C4C542 /* PAT_A1059.h */,
 				26C658971AEA3BA80071CE38 /* PAT_A1025.h */,
 				26C9BE571B02E33600EB3E6F /* PAT_A1029.cpp */,
 				26C9BE581B02E33600EB3E6F /* PAT_A1029.h */,
@@ -190,12 +213,20 @@
 				26ED710E1B057A53001CCAC9 /* PAT_A1049.h */,
 				2622EA501B04D34400D767A0 /* PAT_A1069.cpp */,
 				2622EA511B04D34400D767A0 /* PAT_A1069.h */,
+				266A20771B12BBFF005026F2 /* PAT_A1081.cpp */,
+				266A20791B12BC09005026F2 /* PAT_A1081.h */,
 				268063681B00F24B00F5F8B0 /* PAT_A1085.cpp */,
 				268063691B00F24B00F5F8B0 /* PAT_A1085.h */,
+				260BCB5F1B12BC560054B0E7 /* PAT_A1088.cpp */,
+				260BCB621B12BC910054B0E7 /* PAT_A1088.h */,
 				2680636B1B019A1400F5F8B0 /* PAT_A1089.cpp */,
 				2680636C1B019A1400F5F8B0 /* PAT_A1089.h */,
 				2622EA4D1B04C9D900D767A0 /* PAT_B1003.cpp */,
 				2622EA4E1B04C9D900D767A0 /* PAT_B1003.h */,
+				26E1F93A1B13518F002152EC /* PAT_B1007.cpp */,
+				26E1F93B1B13518F002152EC /* PAT_B1007.h */,
+				26E1F93D1B135975002152EC /* PAT_B1013.cpp */,
+				26E1F93E1B135975002152EC /* PAT_B1013.h */,
 				26BF91CB1AEB1F4800B8D430 /* PAT_B1020.cpp */,
 				26BF91CC1AEB1F4800B8D430 /* PAT_B1020.h */,
 				26EA1E5C1AE9D26B001CA1E9 /* PAT_B1022.cpp */,
@@ -208,6 +239,7 @@
 				263207391AE1FCC0005CAB93 /* SimpleBankQueue.h */,
 				26BAC7C91ADDFCA60069E14A /* SimpleCaculator.cpp */,
 				26747B941ADE244000115A74 /* SimpleCaculator.h */,
+				260BCB611B12BC5F0054B0E7 /* PAT_A1081.h */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -268,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E1F93C1B13518F002152EC /* PAT_B1007.cpp in Sources */,
 				26BAC7CA1ADDFCA60069E14A /* SimpleCaculator.cpp in Sources */,
 				26ED710F1B057A53001CCAC9 /* PAT_A1049.cpp in Sources */,
 				26C9BE591B02E33600EB3E6F /* PAT_A1029.cpp in Sources */,
@@ -284,13 +317,17 @@
 				2634755E1ADE86D200DABECB /* IntDivide.cpp in Sources */,
 				2648A9F41AE129D300587361 /* LinkInsert.cpp in Sources */,
 				26BA4CA61AF5CC3F006AB16B /* Arena_1782.cpp in Sources */,
+				26E1F93F1B135975002152EC /* PAT_B1013.cpp in Sources */,
 				2648A9F71AE1387700587361 /* Derivative.cpp in Sources */,
 				26C9BE5C1B02F5DD00EB3E6F /* PAT_A1048.cpp in Sources */,
 				2632073A1AE1FCC0005CAB93 /* SimpleBankQueue.cpp in Sources */,
 				26BF91CD1AEB1F4800B8D430 /* PAT_B1020.cpp in Sources */,
+				26F4D3361B14ABB900C4C542 /* PAT_A1015.cpp in Sources */,
+				260BCB601B12BC560054B0E7 /* PAT_A1088.cpp in Sources */,
 				2680636D1B019A1400F5F8B0 /* PAT_A1089.cpp in Sources */,
 				26C4C1BF1AFEF39D009B8523 /* PAT_A1044.cpp in Sources */,
 				26BF91D01AEB303D00B8D430 /* PAT_B1023.cpp in Sources */,
+				26F4D3331B149A6300C4C542 /* PAT_A1059.cpp in Sources */,
 				26BA4CA01AF5B989006AB16B /* Arena_1923.cpp in Sources */,
 				26747B971ADE260C00115A74 /* main.cpp in Sources */,
 				26E15E501AFDDB2C004BC485 /* Arena_1934.cpp in Sources */,
@@ -298,6 +335,7 @@
 				26EFDDA41AE23E1600A933D9 /* RestoreBinaryTree.cpp in Sources */,
 				26BA4CA31AF5C02F006AB16B /* Arena_1924.cpp in Sources */,
 				26DEF9391AE9CAE300504532 /* Arena_1809.cpp in Sources */,
+				26DD9C641B17467200B78920 /* PAT_A1078.cpp in Sources */,
 				26EA1E611AE9DA2F001CA1E9 /* Arena_1928.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

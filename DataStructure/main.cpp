@@ -41,6 +41,7 @@
 #include "PAT_B1013.h"
 #include "PAT_A1059.h"
 #include "PAT_A1015.h"
+#include "PAT_A1078.h"
 int main()
 {
     //main_SimpleCaculator();
@@ -81,6 +82,7 @@ int main()
     //main_PAT_B1007();
     //main_PAT_B1013();
      //main_PAT_A1059();
-    main_PAT_A1015();
+    //main_PAT_A1015();
+    main_PAT_A1078();
     return 0;
 }
