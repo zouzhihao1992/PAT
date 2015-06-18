@@ -45,6 +45,14 @@
 #include "PAT_B1017.h"
 #include "PAT_A1023.h"
 #include "PAT_A1024.h"
+#include "PAT_A1039.h"
+#include "PAT_A1047.h"
+#include "PAT_A1063.h"
+#include "PAT_A1060.h"
+#include "PAT_A1054.h"
+#include "PAT_A1071.h"
+#include "PAT_A1022.h"
+
 int main()
 {
     //main_SimpleCaculator();
@@ -89,6 +97,14 @@ int main()
     //main_PAT_A1078();
     //main_PAT_B1017();
     //main_PAT_A1023();
-    main_PAT_A1024();
+    //main_PAT_A1024();
+    //main_A1039();
+    // main_PAT_A1047();
+    //main_PAT_A1063();
+    
+    //main_PAT_A1060();
+    //main_PAT_A1071();
+    //main_PAT_A1054();
+    main_PAT_A1022();
     return 0;
 }
